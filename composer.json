@@ -1,0 +1,22 @@
+{
+    "name": "danielpetrica/laraplugins-skills",
+    "description": "This package provides instructions on how to use the Laraplugins mcp server to search and verify Laravel packages and plugins for health status before adding them to a project. The server exposses the health data for the plugin too so that agent can choose halthy packages for te project or ask user which package to choose",
+    "type": "library",
+    "require-dev": {
+        "laravel/boost": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Petrica",
+            "email": "andrei@danielpetrica.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {}
+    },
+    "version": "0.0.1",
+    "keywords": ["laravel", "plugins", "health", "Agents", "ide", "mcp"],
+    "homepage": "https://github.com/danielpetrica/Laraplugins-skills"
+}
