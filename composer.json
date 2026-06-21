@@ -1,6 +1,6 @@
 {
     "name": "danielpetrica/laraplugins-skills",
-    "description": "This package provides instructions on how to use the Laraplugins mcp server to search and verify Laravel packages and plugins for health status before adding them to a project. The server exposses the health data for the plugin too so that agent can choose halthy packages for te project or ask user which package to choose",
+    "description": "Laravel Boost skill and guideline for the LaraPlugins MCP server. Provides AI agents with the ability to search, verify health scores, and get curated recommendations for Laravel packages via the LaraPlugins package discovery platform.",
     "type": "library",
     "require-dev": {
         "laravel/boost": "^2.0"
