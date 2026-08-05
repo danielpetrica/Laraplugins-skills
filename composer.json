@@ -2,21 +2,32 @@
     "name": "danielpetrica/laraplugins-skills",
     "description": "Laravel Boost skill and guideline for the LaraPlugins MCP server. Provides AI agents with the ability to search, verify health scores, and get curated recommendations for Laravel packages via the LaraPlugins package discovery platform.",
     "type": "library",
+    "keywords": ["laravel", "plugins", "health", "agents", "ide", "mcp", "boost", "skills"],
+    "license": "MIT",
+    "version": "0.1.1",
+    "require": {
+        "php": "^8.2"
+    },
     "require-dev": {
         "laravel/boost": "^2.0"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Daniel Petrica",
-            "email": "andrei@danielpetrica.com"
+            "email": "andrei@danielpetrica.com",
+            "homepage": "https://github.com/danielpetrica"
         }
     ],
-    "require": {},
+    "support": {
+        "issues": "https://github.com/danielpetrica/Laraplugins-skills/issues",
+        "source": "https://github.com/danielpetrica/Laraplugins-skills",
+        "docs": "https://laraplugins.io"
+    },
+    "homepage": "https://laraplugins.io",
     "extra": {
         "laravel": {}
     },
-    "version": "0.0.1",
-    "keywords": ["laravel", "plugins", "health", "Agents", "ide", "mcp"],
-    "homepage": "https://github.com/danielpetrica/Laraplugins-skills"
+    "config": {
+        "sort-packages": true
+    }
 }
